@@ -63,8 +63,7 @@ Text summarization is employed in various applications, such as:
 
 ### How to run the project
 
-
- **Clone the Repository:**
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/MannatPruthi/Topsis-for-pre-trained-models.git
 
