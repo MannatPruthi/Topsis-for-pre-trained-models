@@ -10,52 +10,40 @@ This project utilizes the TOPSIS (Technique for Order of Preference by Similarit
 
 TOPSIS (Technique for Order of Preference by Similarity to Ideal Solution) is a decision-making method used to choose the best alternative from a set of options. It involves:
 
-Normalization:
+- **Normalization:** Scaling criteria to a common range for fair comparison.
 
-Scaling criteria to a common range for fair comparison.
-Weighting:
 
-Assigning weights to criteria based on their importance.
-Positive and Negative Ideal Solutions:
+- **Weighting:** Assigning weights to criteria based on their importance.
 
-Determining the best and worst possible values for each criterion.
-Distance Calculation:
 
-Measuring the distance of each alternative to both ideal solutions.
-Ranking:
+- **Positive and Negative Ideal Solutions:** Determining the best and worst possible values for each criterion.
 
-Assigning a preference ranking based on the calculated distances.
+
+- **Distance Calculation:** Measuring the distance of each alternative to both ideal solutions.
+
+
+- **Ranking:** Assigning a preference ranking based on the calculated distances.
 
 ### **TEXT SUMMARIZATION**
 
 
 Text summarization is the process of condensing a piece of text, preserving its key information, while reducing its length. There are two main types of text summarization:
 
-Extractive Summarization:
-
-Selects and extracts sentences or phrases directly from the original text to form a summary.
+- **Extractive Summarization:** Selects and extracts sentences or phrases directly from the original text to form a summary.
 Uses algorithms to identify and rank sentences based on their importance.
-Abstractive Summarization:
 
-Generates a summary by paraphrasing and rephrasing the content in a new way.
+
+- **Abstractive Summarization:** Generates a summary by paraphrasing and rephrasing the content in a new way.
 Involves understanding the meaning of the text and generating novel sentences.
+
+
 Text summarization is employed in various applications, such as:
 
-News Articles:
-
-Creating concise summaries of news articles for quick information retrieval.
-Legal Documents:
-
-Condensing lengthy legal documents to extract key points and arguments.
-Research Papers:
-
-Providing a brief overview of complex research findings.
-Search Engine Snippets:
-
-Generating concise summaries for search engine results.
-Content Aggregation:
-
-Summarizing and presenting content from multiple sources in a condensed form.
+- News Articles: Creating concise summaries of news articles for quick information retrieval.
+- Legal Documents: Condensing lengthy legal documents to extract key points and arguments.
+- Research Papers: Providing a brief overview of complex research findings.
+- Search Engine Snippets: Generating concise summaries for search engine results.
+- Content Aggregation: Summarizing and presenting content from multiple sources in a condensed form.
 
 ## Features
 
@@ -67,7 +55,7 @@ Summarizing and presenting content from multiple sources in a condensed form.
 
 ### Prerequisites
 
-- Python 3.0
+- Python 3.x
 - pandas
 - numpy
 - matplotlib
